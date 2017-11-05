@@ -1,6 +1,5 @@
 const assert = require('assert');
-const { accountRequestHelper } = require('../../lib/aspsp-authorisation-server/account-request.js');
-// const log = require('debug')('log');
+const { accountRequestHelper } = require('../../lib/aspsp-resource-server/account-request.js');
 
 describe('Account Request', () => {
   it('Has a checkAuthorization Method', () => {
